@@ -39,10 +39,10 @@
     "selenium-server": "^3.4.0",
     "testarmada-bloop": "0.0.4",
     "testarmada-magellan": "^10.0.0",
+    "testarmada-magellan-browserstack-executor": "1.0.0-beta4",
+    "testarmada-magellan-json-reporter": "0.0.5",
     "testarmada-magellan-local-executor": "^1.0.0",
     "testarmada-magellan-nightwatch-plugin": "^7.0.0",
-    "testarmada-magellan-saucelabs-executor": "^4.1.0",
-    "testarmada-magellan-testobject-executor": "1.4.2-beta1",
     "testarmada-nightwatch-extra": "^4.3.0",
     "yargs": "6.6.0"
   },
