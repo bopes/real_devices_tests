@@ -171,6 +171,13 @@
       "selenium": {
         "start_process": false
       }
+    },
+    "browserstack": {
+      "selenium_host": "hub.browserstack.com",
+      "selenium_port": 80,
+      "selenium": {
+        "start_process": false
+      }
     }
   }
 }

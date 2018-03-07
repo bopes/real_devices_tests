@@ -2,13 +2,26 @@
   "framework": "testarmada-magellan-nightwatch-plugin",
   "executors": [
     "testarmada-magellan-local-executor",
-    "testarmada-magellan-saucelabs-executor",
-    "testarmada-magellan-testobject-executor"
+    "testarmada-magellan-browserstack-executor"
   ],
   "reporters": [
-    "testarmada-bloop"
+    "testarmada-bloop",
+    "testarmada-magellan-json-reporter"
   ],
   "profiles": {
+    "app_android": [
+      {
+        "browser": "Samsung Galaxy S8",
+        "executor": "browserstack",
+        "appium": {
+          "device": "Samsung Galaxy S8",
+          "realMobile": true,
+          "app": "bs://6d42c0fdf9e1b218f480b88560ab85494c3ffc5e",
+          "build": "walmart perf tests",
+          "autoDismissAlerts": true
+        }
+      }
+    ], 
     "to_android_lg": [
       {
         "browser": "LG G3",

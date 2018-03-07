@@ -33,6 +33,7 @@
   "author": "Pranav Parikh",
   "license": "MIT",
   "dependencies": {
+    "appium": "^1.6.5",
     "chromedriver": "^2.29.0",
     "dpro": "^1.0.0",
     "nightwatch": "^0.9.14",
