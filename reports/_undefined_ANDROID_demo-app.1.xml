@@ -5,28 +5,28 @@
 
   <testsuite name="demo-app.1"
     errors="0" failures="0" hostname="" id="" package="demo-app.1" skipped="0"
-    tests="6" time="54.19" timestamp="Wed, 07 Mar 2018 22:54:18 GMT">
+    tests="6" time="97.04" timestamp="Thu, 08 Mar 2018 21:53:19 GMT">
   
-    <testcase name="Disable notification" classname="demo-app.1" time="48.56" assertions="0">
+    <testcase name="Disable notification" classname="demo-app.1" time="75.53" assertions="0">
     </testcase>
   
-    <testcase name="Go to account" classname="demo-app.1" time="0.02100" assertions="0">
+    <testcase name="Go to account" classname="demo-app.1" time="0.005000" assertions="0">
     </testcase>
   
-    <testcase name="Login" classname="demo-app.1" time="0.01200" assertions="0">
+    <testcase name="Login" classname="demo-app.1" time="0.006000" assertions="0">
     </testcase>
   
-    <testcase name="Search for Welcome message" classname="demo-app.1" time="0.02300" assertions="0">
+    <testcase name="Search for Welcome message" classname="demo-app.1" time="0.005000" assertions="0">
     </testcase>
   
-    <testcase name="Search for ketchup" classname="demo-app.1" time="5.564" assertions="2">
+    <testcase name="Search for ketchup" classname="demo-app.1" time="21.49" assertions="2">
 
     
 
     
     </testcase>
   
-    <testcase name="Go to second item in search result" classname="demo-app.1" time="0.009000" assertions="0">
+    <testcase name="Go to second item in search result" classname="demo-app.1" time="0.005000" assertions="0">
     </testcase>
   
 

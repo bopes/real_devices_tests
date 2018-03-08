@@ -2,7 +2,7 @@ var Test = require("../lib/example-base-test-class");
 var dpro = require("dpro");
 
 module.exports = new Test({
-  tags: ["app", "ip7p"],
+  tags: ["app", "ip8"],
 
   "Disable notification": function (client) {
     var home = client.page[dpro.device][dpro.home]();

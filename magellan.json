@@ -9,7 +9,7 @@
     "testarmada-magellan-json-reporter"
   ],
   "profiles": {
-    "app_android": [
+    "bs_s8": [
       {
         "browser": "Samsung Galaxy S8",
         "executor": "browserstack",
@@ -21,7 +21,85 @@
           "autoDismissAlerts": true
         }
       }
-    ], 
+    ],
+    "bs_s7": [
+      {
+        "browser": "Samsung Galaxy S7",
+        "executor": "browserstack",
+        "appium": {
+          "device": "Samsung Galaxy S7",
+          "realMobile": true,
+          "app": "bs://6d42c0fdf9e1b218f480b88560ab85494c3ffc5e",
+          "build": "walmart perf tests",
+          "autoDismissAlerts": true
+        }
+      }
+    ],
+    "bs_s5": [
+      {
+        "browser": "Samsung Galaxy S5",
+        "executor": "browserstack",
+        "appium": {
+          "device": "Samsung Galaxy S5",
+          "realMobile": true,
+          "app": "bs://6d42c0fdf9e1b218f480b88560ab85494c3ffc5e",
+          "build": "walmart perf tests",
+          "autoDismissAlerts": true
+        }
+      }
+    ],
+    "bs_ip8": [
+      {
+        "browser": "iPhone 8",
+        "executor": "browserstack",
+        "appium": {
+          "device": "iPhone 8",
+          "realMobile": true,
+          "app": "bs://dbe2a5d5fd1d4a5a1686807263f47cc1ae06df5e",
+          "build": "walmart perf tests",
+          "autoAcceptAlerts": true
+        }
+      }
+    ],
+    "bs_ip7": [
+      {
+        "browser": "iPhone 7",
+        "executor": "browserstack",
+        "appium": {
+          "device": "iPhone 7",
+          "realMobile": true,
+          "app": "bs://dbe2a5d5fd1d4a5a1686807263f47cc1ae06df5e",
+          "build": "walmart perf tests",
+          "autoAcceptAlerts": true
+        }
+      }
+    ],
+    "bs_ip7p": [
+      {
+        "browser": "iPhone 7 Plus",
+        "executor": "browserstack",
+        "appium": {
+          "device": "iPhone 7 Plus",
+          "realMobile": true,
+          "app": "bs://dbe2a5d5fd1d4a5a1686807263f47cc1ae06df5e",
+          "build": "walmart perf tests",
+          "autoAcceptAlerts": true
+        }
+      }
+    ],
+    "bs_ip10": [
+      {
+        "browser": "iPhone X",
+        "executor": "browserstack",
+        "appium": {
+          "device": "iPhone X",
+          "realMobile": true,
+          "app": "bs://dbe2a5d5fd1d4a5a1686807263f47cc1ae06df5e",
+          "build": "walmart perf tests",
+          "autoAcceptAlerts": true
+        }
+      }
+    ],
     "to_android_lg": [
       {
         "browser": "LG G3",

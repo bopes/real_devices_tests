@@ -1,0 +1,5 @@
+result,device,duration(ms),raw
+pass,s7,76682,"{""duration""=>76682, ""err""=>{}}"
+pass,s7,76912,"{""duration""=>76912, ""err""=>{}}"
+pass,s7,77240,"{""duration""=>77240, ""err""=>{}}"
+pass,s7,79030,"{""duration""=>79030, ""err""=>{}}"
