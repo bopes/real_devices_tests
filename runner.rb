@@ -3,7 +3,7 @@ require 'CSV'
 
 # Set ENV variables
 ENV['BROWSERSTACK_USER'] = 'charliewalmartpe1'
-ENV['BROWSERSTACK_ACCESS_KEY'] = ''
+ENV['BROWSERSTACK_ACCESS_KEY'] = 'tcqpabQ594TyNxpApGey'
 
 # Set execution variables
 mocha_report_file = './mocha_report.json'
