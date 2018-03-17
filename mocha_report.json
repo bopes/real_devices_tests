@@ -1,21 +1,17 @@
 {
   "stats": {
-    "suites": 2,
-    "tests": 2,
-    "passes": 2,
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2018-03-08T21:53:16.022Z",
-    "end": "2018-03-08T21:55:19.051Z",
-    "duration": 123029
+    "start": "2018-03-17T02:13:02.447Z",
+    "end": "2018-03-17T02:14:26.969Z",
+    "duration": 84522
   },
   "tests": [
     {
-      "duration": 101444,
-      "err": {}
-    },
-    {
-      "duration": 117431,
+      "duration": 78935,
       "err": {}
     }
   ],
@@ -23,11 +19,7 @@
   "failures": [],
   "passes": [
     {
-      "duration": 101444,
-      "err": {}
-    },
-    {
-      "duration": 117431,
+      "duration": 78935,
       "err": {}
     }
   ]
